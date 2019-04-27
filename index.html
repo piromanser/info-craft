@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
+
 <body>
     <section class="container">
         <header>
@@ -25,13 +26,39 @@
         </header>
     </section>
 
-    <section class="container nav-box" style="padding-bottom: 2px;">
-        <nav class="nav-menu">
-            <a href="">Главная</a>
-            <a href="">Продукты </a>
-            <a href="">Поддержка</a>
-            <a href="">О компании</a>
-        </nav>
+    <section class="container nav-box">       
+        <ul class="menu">
+            <li class="menu-item">
+                <div class="menu-button">Главная</div>
+            </li>
+
+            <li class="menu-item">
+                <div class="menu-button">Продукты </div>
+            </li>
+
+            <li class="menu-item">
+                <div class="menu-button">Поддержка</div>
+            </li>
+
+            <li class="menu-item menu-item-with-inner">
+                <div class="menu-button">О компании</div>
+
+                <ul class="menu-inner">
+                    <li class="menu-inner-item">
+                        <a href="/">Контакты</a>
+                    </li>
+                    <li class="menu-inner-item">
+                        <a href="/">История</a>
+                    </li>
+                    <li class="menu-inner-item">
+                        <a href="/">Сотрудники</a>
+                    </li>
+                    <li class="menu-inner-item">
+                        <a href="/">Вакансии</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
     </section>
 
     <section class="container">
@@ -89,8 +116,6 @@
                 <span class="slider-dots_item" onclick="currentSlide(3)"></span> 
             </div>
         </div>
-
-        
     </section>
 
     <section class="container">
@@ -125,6 +150,7 @@
             </div>
         </footer>
     </section>
+
     <script src="script.js"></script>
 </body>
 </html>
