@@ -60,7 +60,7 @@ header {
     margin: 0;
     list-style: none;
     display: flex;
-    padding: 10px 20px;
+    padding: 0 20px;
 }
 
 .menu-item {
@@ -78,8 +78,10 @@ header {
 }
 
 .menu-button {
-    padding: 20px;
+    padding: 15px 20px;
     border: 1px solid transparent;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 .menu-item:hover {
@@ -101,7 +103,7 @@ header {
     width: 135px;
     position: absolute;
     left: 0;
-    top: 55px;
+    top: 40px;
     padding-bottom: 20px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -168,7 +170,7 @@ header {
 
 .baner-item {
     width: 293px;
-    height: 262px;
+    height: 293px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -229,6 +231,8 @@ h4 {
 .hello>span {
     font-size: 16px;
     color: #575757;
+    display: block;
+    width: 90%;
 }
 
 footer {
@@ -270,7 +274,7 @@ footer {
     border: 1px solid #dbdbdb;
     background-color: white;
     padding: 0 0 0 9px;
-    color: #c7c7c7;
+    color: #575757;
     font-size: 16px;
     line-height: 36px;
 }
@@ -289,7 +293,7 @@ footer {
 }
 
 .slider{
-    max-width: 90%;
+    /* max-width: 90%; */
     position: relative;
     margin: auto;
     height: 300px;
