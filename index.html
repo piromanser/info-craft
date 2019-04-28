@@ -10,123 +10,126 @@
 </head>
 
 <body>
-    <section class="container">
-        <header>
-            <img src="img/logo.png" alt="">
+    <div class="content-box">
 
-            <div class="header-item">
-                <a href="">8-800-200-1-365</a>
-                <span>Обязательно ответим</span>
+        <section class="container">
+            <header>
+                <img src="img/logo.png" alt="">
+
+                <div class="header-item">
+                    <a href="">8-800-200-1-365</a>
+                    <span>Обязательно ответим</span>
+                </div>
+
+                <div class="header-item">
+                    <a href="">Перезвоните мне</a>
+                    <span>Форма обратной связи</span>
+                </div>
+            </header>
+        </section>
+
+        <section class="container nav-box">       
+            <ul class="menu">
+                <li class="menu-item">
+                    <div class="menu-button">Главная</div>
+                </li>
+
+                <li class="menu-item">
+                    <div class="menu-button">Продукты </div>
+                </li>
+
+                <li class="menu-item">
+                    <div class="menu-button">Поддержка</div>
+                </li>
+
+                <li class="menu-item menu-item-with-inner">
+                    <div class="menu-button">О компании</div>
+
+                    <ul class="menu-inner">
+                        <li class="menu-inner-item">
+                            <a href="/">Контакты</a>
+                        </li>
+                        <li class="menu-inner-item">
+                            <a href="/">История</a>
+                        </li>
+                        <li class="menu-inner-item">
+                            <a href="/">Сотрудники</a>
+                        </li>
+                        <li class="menu-inner-item">
+                            <a href="/">Вакансии</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section class="container">
+            <a class="baner">
+                <div class="baner-item">
+                    <div>
+                        <p>Программы<br>для СНТ</p>
+                    </div>
+                </div>
+
+                <div class="baner-item">
+                    <div>
+                        <p>Программы<br>для ТСЖ</p>
+                    </div>
+                </div>
+
+                <div class="baner-item">
+                    <div>
+                        <p>Программы<br>для ТСН</p>
+                    </div>
+                </div>
+            </a>
+        </section>
+
+        <section class="container">
+            <div class="hello">
+                <h4>Инфокрафт приветствует вас!</h4>
+                <span>Компания «Инфокрафт» специализируется на разработке программного обеспечения для предприятий ЖКХ.
+                        Мы создаем прикладные решения на платформе «1С:Предприятие 8», программы для Microsoft Windows 
+                        и онлайн-сервисы, направленные на решения профессиональных задач наших клиентов.
+                </span>
             </div>
+        </section>
 
-            <div class="header-item">
-                <a href="">Перезвоните мне</a>
-                <span>Форма обратной связи</span>
-            </div>
-        </header>
-    </section>
+        <section class="container">
+            <div class="slider">
+                <div class="item">
+                    <img src="img/slider-item.png" alt="">
+                </div>
 
-    <section class="container nav-box">       
-        <ul class="menu">
-            <li class="menu-item">
-                <div class="menu-button">Главная</div>
-            </li>
+                <div class="item">
+                    <img src="img/slider-item2.png" alt="">
+                </div>
 
-            <li class="menu-item">
-                <div class="menu-button">Продукты </div>
-            </li>
+                <div class="item">
+                    <img src="img/slider-item3.png" alt="">
+                </div>
+                
+                <a class="prev" onclick="minusSlide()">&#10094;</a>
+                <a class="next" onclick="plusSlide()">&#10095;</a>
 
-            <li class="menu-item">
-                <div class="menu-button">Поддержка</div>
-            </li>
-
-            <li class="menu-item menu-item-with-inner">
-                <div class="menu-button">О компании</div>
-
-                <ul class="menu-inner">
-                    <li class="menu-inner-item">
-                        <a href="/">Контакты</a>
-                    </li>
-                    <li class="menu-inner-item">
-                        <a href="/">История</a>
-                    </li>
-                    <li class="menu-inner-item">
-                        <a href="/">Сотрудники</a>
-                    </li>
-                    <li class="menu-inner-item">
-                        <a href="/">Вакансии</a>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-    </section>
-
-    <section class="container">
-        <a class="baner">
-            <div class="baner-item">
-                <div>
-                    <p>Программы<br>для СНТ</p>
+                <div class="slider-dots">
+                    <span class="slider-dots_item" onclick="currentSlide(1)"></span> 
+                    <span class="slider-dots_item" onclick="currentSlide(2)"></span> 
+                    <span class="slider-dots_item" onclick="currentSlide(3)"></span> 
                 </div>
             </div>
+        </section>
 
-            <div class="baner-item">
-                <div>
-                    <p>Программы<br>для ТСЖ</p>
-                </div>
-            </div>
-
-            <div class="baner-item">
-                <div>
-                    <p>Программы<br>для ТСН</p>
-                </div>
-            </div>
-        </a>
-    </section>
-
-    <section class="container">
-        <div class="hello">
-            <h4>Инфокрафт приветствует вас!</h4>
-            <span>Компания «Инфокрафт» специализируется на разработке программного обеспечения для предприятий ЖКХ.
+        <section class="container">
+            <div class="hello offers">
+                <h4>Есть предложения?</h4>
+                <span>Компания «Инфокрафт» специализируется на разработке программного обеспечения для предприятий ЖКХ.
                     Мы создаем прикладные решения на платформе «1С:Предприятие 8», программы для Microsoft Windows 
                     и онлайн-сервисы, направленные на решения профессиональных задач наших клиентов.
-            </span>
-        </div>
-    </section>
-
-    <section class="container">
-        <div class="slider">
-            <div class="item">
-                <img src="img/slider-item.png" alt="">
+                </span>
             </div>
-
-            <div class="item">
-                <img src="img/slider-item2.png" alt="">
-            </div>
-
-            <div class="item">
-                <img src="img/slider-item3.png" alt="">
-            </div>
-            
-            <a class="prev" onclick="minusSlide()">&#10094;</a>
-            <a class="next" onclick="plusSlide()">&#10095;</a>
-
-            <div class="slider-dots">
-                <span class="slider-dots_item" onclick="currentSlide(1)"></span> 
-                <span class="slider-dots_item" onclick="currentSlide(2)"></span> 
-                <span class="slider-dots_item" onclick="currentSlide(3)"></span> 
-            </div>
-        </div>
-    </section>
-
-    <section class="container">
-        <div class="hello offers">
-            <h4>Есть предложения?</h4>
-            <span>Компания «Инфокрафт» специализируется на разработке программного обеспечения для предприятий ЖКХ.
-                Мы создаем прикладные решения на платформе «1С:Предприятие 8», программы для Microsoft Windows 
-                и онлайн-сервисы, направленные на решения профессиональных задач наших клиентов.
-            </span>
-        </div>
-    </section>
+        </section>
+    </div>
 
     <section class="container">
         <footer>

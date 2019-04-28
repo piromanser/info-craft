@@ -3,9 +3,13 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
-    background-color: blanchedalmond;
+    background-color: #eeeeee;
     font-family: 'Roboto', sans-serif;
-    height: 100vh;
+    min-height: 100vh;
+}
+
+.content-box {
+    flex: 1;
 }
 
 a {
@@ -50,7 +54,7 @@ header {
 /* menu styles start */
 
 .menu {
-    background: gray;
+    background-image: linear-gradient(to right, #8d8c8c 0%, #525252 100%);
     color: white;
     padding: 0;
     margin: 0;
