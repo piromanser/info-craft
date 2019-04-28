@@ -164,7 +164,6 @@ header {
     display: flex;
     justify-content: space-between;
     margin-top: 59px;
-    cursor: pointer;
     padding-bottom: 10px;
 }
 
@@ -176,6 +175,7 @@ header {
     justify-content: flex-end;
     border-radius: 15px;
     box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.72);
+    cursor: pointer;
 }
 
 .baner-item:nth-child(1) {
